@@ -1,90 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 	<head>
+		<meta charset="UTF-8">
 		<title>Activity 1: Student Bio</title>
-		<style type="text/css">
-/**
- First External CSS Stylesheet
- **/
-
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
-*/
-
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-  background: #efeee7;
-}
-
-header {
-  background: #333;
-}
-
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-a {
-  color: #d21034;
-}
-
-.container {
-  width: 1024px;
-  margin: 0 auto;
-}
-
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
-}
-
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-}
-
-#bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
-}
-		</style>
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
 	</head>
 	<body>
 		<header>
 			<h1>Student Bio</h1>
 		</header>
 
-		<div>
-			<section id="Name">
+		<div class="container">
+			<section id="main-bio">
 				<h2>Praveen Peruri</h2>
 
-				<img src="002.jpg" alt="Praveen Peruri">
+				<img id="bio-image" src="002.jpg" alt="Praveen Peruri">
 
 				<p>I am an Application Developer</p>
 			</section>
 
-			<section id="Contact">
+			<section id="contact-info">
 				<h2>Contact Info</h2>
 
 				<ul>
